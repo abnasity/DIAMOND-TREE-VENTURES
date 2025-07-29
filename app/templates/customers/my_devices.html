@@ -19,7 +19,7 @@
             {% for item in purchased_items %}
             <tr>
                 <td>{{ item.order.id }}</td>
-                <td>{{ item.completed_at.strftime('%Y-%m-%d') }}</td>
+                <td>{{ item.completed_at.strftime('%Y-%m-%d') if item.completed_at else 'Pending' }}</td>
                 <td>{{ item.device.brand }}</td>
                 <td>{{ item.device.model }}</td>
               {% if item.order.payment_option == 'cash' %}
