@@ -1,88 +1,106 @@
-# 📱 Diamond Tree Ventures
+📱 Diamond Tree Ventures
+Developer: Kipngeno Abednego
+Project Type: Capstone Project
+Live Deployment: diamond-tree-ventures.onrender.com
 
-**Developer:** Kipngeno Abednego  
-**Project Type:** Capstone Project  
-**Deployment:** Live on [Render](https://diamond-tree-ventures.onrender.com)
+🔍 Overview
+Diamond Tree Ventures is a role-based mobile device sales and inventory management platform built to streamline operations and enhance user engagement across different access levels. The platform supports three primary user roles:
 
----
+👤 Customers
+Browse available mobile devices and view detailed specifications
 
-## 🔍 Overview
+Place orders via cash or credit
 
-**Diamond Tree Ventures** is a role-based mobile device sales and management platform designed to streamline commerce and enhance customer engagement. It provides tailored experiences for three distinct user roles:
+Track order statuses with real-time notifications
 
-### 👤 Customers
-- Browse devices and view detailed specifications  
-- Place cash or credit orders  
-- Track orders with real-time status notifications  
-- Manage delivery addresses and personal profiles  
-- Access support and view service history  
+Manage delivery addresses and update personal profiles
 
-### 🧑‍💼 Staff
-- Manage and fulfill customer orders  
-- Mark orders as **Awaiting Approval**, **Completed**, or **Rejected** (with reason)  
-- View assigned tasks via a dedicated staff dashboard  
-- Receive real-time alerts and updates  
+Access support and review service history
 
-### 🛠️ Admins
-- Monitor sales activity and manage customer service requests  
-- Assign staff to orders and track responsibilities  
-- Add, update, and manage device inventory (IMEI-based)  
-- Manage user accounts (add, activate, deactivate)  
-- Approve or reject pending orders  
-- Customize workflow processes  
-- Access platform-wide notifications, analytics, and reports  
+🧑‍💼 Staff
+Manage and process customer orders
 
----
+Mark orders as Awaiting Approval, Completed, or Rejected (with reason)
 
-## ✅ Features Implemented
+Access and manage assigned orders through a dedicated staff dashboard
 
-### 🔧 Core System
-- 🟢 Successfully deployed on **Render**
+Receive timely alerts and task updates
 
-### 🧑‍💼 Admin Functionality
-- Add devices to inventory and public homepage  
-- Manage user accounts (add, deactivate)  
-- View customer orders and assigned staff  
-- Approve or disapprove orders  
+🛠️ Admins
+Oversee all platform activity including inventory and sales
 
-### 👷 Staff Functionality
-- View and update customer order statuses  
-- Reject orders with specified reasons  
-- View assigned orders on dashboard  
+Assign staff to customer orders and manage responsibilities
 
-### 👥 Customer Functionality
-- Browse available devices  
-- Add devices to cart and place orders  
-- Track orders from dashboard  
-- Register, log in, and edit profile  
-- View successful order history  
+Add, edit, and manage device inventory (IMEI-based tracking)
 
----
+Manage user accounts (create, activate, deactivate)
 
-## 🔧 Pending Tasks (TODO)
+Review and approve/reject pending orders
 
-- [ ] Improve mobile responsiveness (UI/UX on smaller screens)  
-- [ ] Integrate barcode scanner for automatic device detail extraction  
-- [ ] Implement receipt/invoice generation  
-- [ ] Add "Forgot Password" recovery functionality  
-- [ ] Complete reporting and sales management dashboard  
+Customize platform workflows
 
----
+Access platform-wide analytics, reports, and system notifications
 
-## 🛠️ Tech Stack
+✅ Key Features Implemented
+🔧 Core System
+Live deployment via Render
 
-- **Backend:** Flask 3.1.1, Flask-Login, SQLAlchemy  
-- **Frontend:** Jinja2 Templates, Bootstrap 5  
-- **Database:** SQLite (development), PostgreSQL (production)  
-- **Deployment:** Render  
+Secure authentication with role-based access control
 
----
+🧑‍💼 Admin Tools
+Inventory management with IMEI tracking
 
-## 📬 Contact
+User account control (add, activate, deactivate)
 
-For inquiries or feedback, please reach out to:  
-**Kipngeno Abednego** — [Your email/contact info here]
+Order oversight with staff assignment capabilities
 
----
+Approval workflow for pending orders
 
-> This project was developed as part of a capstone for educational and portfolio purposes.
+👷 Staff Tools
+Dashboard to manage assigned orders
+
+Update order statuses or reject with documented reasons
+
+Real-time alerts for new tasks and updates
+
+👥 Customer Experience
+Device browsing and advanced search
+
+Add to cart and place orders (cash or credit)
+
+Track order progress from personalized dashboard
+
+Profile management and delivery address control
+
+Order history and support access
+
+✅ Additional Completed Milestones
+📱 Fully responsive design for smooth mobile experience
+
+🔍 Integrated barcode scanner for automatic device data entry
+
+🧾 Dynamic receipt and invoice generation for completed orders
+
+🔐 Password recovery via secure "Forgot Password" feature
+
+📊 Integrated reporting and sales analytics dashboard for admin users
+
+🛠️ Tech Stack
+Backend: Flask 3.1.1, Flask-Login, SQLAlchemy
+
+Frontend: Jinja2 Templates, Bootstrap 5
+
+Database: SQLite (development), PostgreSQL (production)
+
+Deployment: Render
+
+📬 Contact
+For inquiries, collaboration, or feedback:
+Kipngeno Abednego
+📧 [abednegokipngeno@gmail.com]
+🔗 [(https://github.com/abnasity)]
+
+This platform was developed as part of a capstone project for educational and portfolio purposes under Africode Academy.
+
+Feel free to explore the live deployment and experience the features firsthand. Your feedback is highly appreciated!
+Happy browsing and managing your mobile device sales with Diamond Tree Ventures! 🚀
